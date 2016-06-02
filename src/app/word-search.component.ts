@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { WordSearchGameComponent } from './word-search-game';
+import * as _ from 'lodash';
+import * as moment from 'moment';
+
 
 @Component({
   moduleId: module.id,
@@ -9,5 +12,10 @@ import { WordSearchGameComponent } from './word-search-game';
   directives: [WordSearchGameComponent]
 })
 export class WordSearchAppComponent {
-  title = 'WS';
+  title = 'WS ' ;
+  constructor(){
+    console.log(moment().format('mm-dd-yy'));
+    console.log(_([4,2,3]).sort().value());
+    
+  }
 }

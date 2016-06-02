@@ -10,6 +10,8 @@ module.exports = function(defaults) {
       'zone.js/dist/**/*.+(js|js.map)',
       'es6-shim/es6-shim.js',
       'reflect-metadata/**/*.+(js|js.map)',
+      'lodash/**/*.+(js|js.map)',
+      'moment/moment.js',
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)'
     ]

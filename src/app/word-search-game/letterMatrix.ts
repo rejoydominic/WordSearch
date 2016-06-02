@@ -1,4 +1,5 @@
-import { Letter } from './letter'
+import { Letter } from './letter';
+
 export class LetterMatrix{
     matrix = [];
     
